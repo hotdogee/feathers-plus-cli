@@ -2,18 +2,9 @@
 
 > FeathersJS CLI supporting both REST and GraphQL architectural concepts and their query languages.
 
-## Installation
-
-```
-npm install -g @feathers-plus/cli
-```
-
 ## Usage
-
-Refer to the [documentation](https://generator.feathers-plus.com/).
-
-## License
-
-Copyright (c) 2017-18 John J. Szwaronek.
-
-Licensed under the [MIT license](./LICENSE).
+cd .\feathers-app\original\g-options
+node ..\feathers-plus-cli g options
+node ..\feathers-plus-cli g app
+node ..\feathers-plus-cli g authentication
+node ..\feathers-plus-cli g service
